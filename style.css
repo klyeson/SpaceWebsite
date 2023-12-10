@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body { margin: 0; font-family: 'Barlow Condensed', sans-serif;
+  width: 100vw;
+  height: 100vh;
+overflow: hidden;}
+
+.background {
+  position: static;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  width: 830px;
+  height: 96px;
+  list-style-type: none;
+  background-color: rgba(73, 72, 72, 0.695);
+  align-items: center;
+  font-size: 19px;  
+}
+
+.navbar ul a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px;
+  word-spacing: 5px;
+}
+
+.navbar ul a:hover {
+  font-size: 22px;
+  color: rgb(2, 184, 204);
+}
+
+.logo {
+  margin-left: 55px;
+  height: 60px;
+}
+
+.navbar ul li {
+  padding-left: 48px;  
+}
+
+.paragraph {
+  position: absolute;
+  width: 600px;
+  bottom: 131px;
+  left: 165px;
+  color: white;
+  text-align: center;
+}
+
+.paragraph h3 {
+  font-size: 42px;
+  font-weight: 100;
+  word-spacing: 3px;
+}
+
+.paragraph h1 {
+  font-size: 200px;
+  margin-top: -50px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.paragraph p {
+  font-size: 24px;
+  margin-top: -100px;
+  font-family: 'Barlow', serif;
+  word-spacing: 4px;
+}
